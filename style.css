@@ -571,6 +571,7 @@ form small {
 
     .nav-footer div:nth-child(1) p {
         opacity: 0.5;
+        text-transform:uppercase;
         cursor: pointer;
     }
 
@@ -622,6 +623,18 @@ form small {
     justify-content: space-between;
     margin-bottom: 40px;
 }
+
+.mo-top button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.mo-nav {
+    background-color: transparent;
+    border: none;
+}
+
 .mo-mid {
     text-align: center;
     color: white;

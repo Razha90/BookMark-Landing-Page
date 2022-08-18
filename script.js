@@ -57,11 +57,10 @@ function checkEmail() {
     }
 };
 
-document.getElementsByClassName('mo-nav')[0].addEventListener('click', () => {
+function openTop() {
     document.getElementsByClassName('nav-mobile')[0].classList.toggle('mobile-flex');
-});
-
-document.querySelectorAll('.mo-top svg')[1].addEventListener('click', () => {
+}
+function closeTop() {
     document.getElementsByClassName('nav-mobile')[0].classList.toggle('mobile-flex');
-});
+}
 
