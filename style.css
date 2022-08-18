@@ -641,7 +641,7 @@ form small {
 
 .mobile-flex {
     padding: 7% 10%;
-    min-height: 86vh;
+    height: 90%;
 }
 
 .mo-bot {
@@ -913,7 +913,11 @@ form small {
         text-align: center;
     }
 }
-
+@media screen and (max-width: 550px) {
+    .mobile-flex {
+        height: 92%;
+    }
+}
 
 @media screen and (max-width: 456px) {
     form {
@@ -921,6 +925,10 @@ form small {
         width: 80%;
         padding: 0 10%;
         gap: 20px;
+    }
+
+    .mobile-flex {
+        height: 95%;
     }
 
     form div {
